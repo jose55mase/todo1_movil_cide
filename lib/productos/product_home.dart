@@ -1,4 +1,5 @@
 import 'package:develop_flutter_app/productos/product_add_view.dart';
+import 'package:develop_flutter_app/productos/product_list.dart';
 import 'package:develop_flutter_app/productos/product_list_view.dart';
 import 'package:flutter/material.dart';
 
@@ -19,6 +20,7 @@ class _ProductHome extends State<ProductHome> {
     return DefaultTabController(
       length: 2,
       child: Scaffold(
+
         appBar: AppBar(
           bottom: TabBar(
             tabs: [
@@ -30,7 +32,8 @@ class _ProductHome extends State<ProductHome> {
         ),
         body: TabBarView(
           children: [
-            ProductListView()
+            ProductList()
+            //ProductListView()
             ,ProductAddView()
           ],
         ),

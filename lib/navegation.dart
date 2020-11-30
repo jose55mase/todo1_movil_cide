@@ -31,7 +31,10 @@ class _Navigation extends State<Navigation>{
   Widget build(BuildContext context) {
     return
       Scaffold(
+
       body: widgetsChildren[indexNavar],
+
+          resizeToAvoidBottomInset: true,
       bottomNavigationBar: Theme(
         data: Theme.of(context).copyWith(
           canvasColor: Colors.black12,

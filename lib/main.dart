@@ -7,7 +7,6 @@ import 'package:http/http.dart' as http;
 //--------------
 import 'description_place.dart';
 import 'gradient_back.dart';
-
 import 'heade_nav.dart';
 import 'home.dart';
 import 'navegation.dart';
@@ -36,7 +35,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Navigation()
+      home:  Navigation()
         //MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
